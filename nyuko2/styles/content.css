@@ -1,0 +1,279 @@
+.wrapper {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.bodyWrapper {
+    width: 96%;
+    padding: 0 2%;
+    float: left;
+}
+
+.ctnLogo, .ctnLogo2 {
+    float: left;
+    width: 100%;
+    height: 0;
+    padding-top: 50px;
+    overflow: hidden;
+    background: url(../images/rubbersoul.png) center center no-repeat;
+    background-size: 100% auto;
+}
+.ctnLogo {
+    width: 200px;
+}
+
+.ctnDescp {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 230% !important;
+}
+
+.ctnHeader {
+    width: 100%;
+    float: left;
+}
+.ctnTitle {
+    width: 100%;
+    float:left;
+}
+
+.ctnLeft {
+    width: 98%;
+    padding: 1%;
+    float: left;
+    border-bottom: 1px solid #c5c5c5;
+    background:#F1F1F1;
+    margin-bottom: 20px;
+}
+
+.ctnRight {
+    width: 100%;
+    float: right;
+}
+
+.lstMain,
+.lstLogout {
+    height: 50px;
+    float: left;
+}
+
+.lstMain li,
+.lstLogout li {
+    display: inline;
+}
+
+.lstMain li a {
+    font-size: 120% !important;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    background: url(../images/bullet01.png) left center no-repeat;
+}
+
+.lstMain li a:hover {
+    color: #c7c7c7;
+}
+
+.lstLogout a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.tblSearch {
+    width: 100%;
+}
+
+.tblSearch td {
+    padding-bottom: 5px;
+}
+
+.tblList {
+    width: 100%;
+    border-bottom: 1px solid #514f4f;
+    cursor:default;
+}
+
+.tblList th {
+    background: #514f4f;
+    color: #fff;
+}
+
+.tblList td, .tblList th {
+    text-align: left;
+}
+
+.tblList td {
+    border-bottom: 1px dotted #c5c5c5;
+}
+
+.tblForm {
+    width: 100%;
+}
+
+.tblForm th {
+    background: #514f4f;
+    color: #fff;
+    text-align: right;
+    vertical-align: top;
+}
+
+.tblForm td {
+    text-align: left;
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
+.paginate {
+    text-align: center;
+}
+.paginate li {
+    display:inline;
+    color:#fff;
+}
+.paginate a,
+.paginate span {
+    color:#fff;
+}
+.paginate a {
+    padding: 10px;
+    height:30px;
+    line-height: 30px;
+    width: 30px;
+}
+.paginate a:hover {
+    color:#000;
+    background:#ffffff;
+}
+.paginate li.active a {
+    color:#000;
+    background:#ffffff;
+}
+.lblPrev {
+    background:url(../images/lblPrev.png) left center no-repeat;
+}
+.lblNext {
+    background:url(../images/lblNext.png) right center no-repeat;
+}
+.noti {
+    float:left;
+    width: 100%;
+}
+
+
+/* ************************ Common *************************** */
+.sizeFontSmall {
+    font-size: 110% !important;
+}
+
+.marginBtm20 {
+    margin-bottom: 20px;
+}
+
+.marginTop20 {
+    margin-top: 20px;
+}
+
+.marginleft20 {
+    margin-left: 20px;
+}
+
+.marginRht20 {
+    margin-right: 20px;
+}
+
+.paddingBtm20 {
+    padding-bottom: 20px;
+}
+
+.paddingTop20 {
+    padding-top: 20px;
+}
+
+.paddingLft20 {
+    padding-left: 20px;
+}
+
+.paddingRht20 {
+    padding-right: 20px;
+}
+
+.lbl {
+    width: 100%;
+    float: left;
+    font-weight: bold;
+}
+
+.txt {
+    border: 1px solid #c5c5c5;
+    background-color: #ffffff;
+    padding: 3px;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.fLeft {
+    float:left;
+}
+.fRight {
+    float:right;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+.fullHeight {
+    width: 100%;
+}
+
+.halfWidth {
+    width: 50%;
+}
+
+.ttl {
+    width: 100%;
+    float: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padder {
+    padding: 0 10px;
+    background: url(../images/bdr.png) center top repeat-y;
+}
+.time {
+    width: 45px;
+}
+.date {
+    width: 75px;
+}
+.sizeFontBig {
+    font-size: 130% !important;
+}
+/*********************************client add********************************/
+.txt_style {
+    width: 200px;
+}
+
+#editform, #psw_reset {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.hover {
+    background:#F1F1F1;
+}
